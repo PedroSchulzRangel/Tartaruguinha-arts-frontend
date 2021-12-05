@@ -6,6 +6,7 @@ import { MenuDetail } from "./MenuDetail";
 import Logo from '../../assets/logo-branco.svg';
 
 import { Link } from 'react-scroll'
+import { NavLink } from 'react-router-dom';
 
 import './styles.scss';
 
@@ -27,7 +28,7 @@ export function PageMenu() {
                 </h1>
             </div>
 
-            
+
             <nav className="NavBarItems">
 
                 <div className="menu-icon" onClick={handleClickMenu}>
@@ -46,11 +47,11 @@ export function PageMenu() {
                                     offset={0}
                                     duration={500}
                                 >
-                                <li key={index}>
-                                    <a className={item.cName} href={item.url}>
-                                        {item.title}
-                                    </a>
-                                </li>
+                                    <li key={index}>
+                                        <NavLink to={item.url} className={item.cName} href={item.url}>
+                                            {item.title}
+                                        </NavLink>
+                                    </li>
                                 </Link>
                             )
                         })}
@@ -59,8 +60,8 @@ export function PageMenu() {
                 </div>
 
             </nav>
-      
-                        <MenuDetail />
+
+            <MenuDetail />
 
 
         </div>
