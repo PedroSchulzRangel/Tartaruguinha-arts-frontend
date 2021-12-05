@@ -25,7 +25,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background: #9BC9C8;
+	background: no-repeat url(./assets/background-mar.svg);
+	background-size: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -43,5 +44,24 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+	font-family: 'Hewitt';
+	src: url('./assets/fonts/cooper-hewitt/CooperHewitt-Medium.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: 'HewittBook';
+	src: url('./assets/fonts/cooper-hewitt/CooperHewitt-Book.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HewittBold';
+	src: url('./assets/fonts/cooper-hewitt/CooperHewitt-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+}
 

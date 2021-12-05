@@ -5,7 +5,7 @@ import { MenuDetail } from "./MenuDetail";
 
 import Logo from '../../assets/logo-branco.svg';
 
-//import { Link } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 import './styles.scss';
 
@@ -38,20 +38,20 @@ export function PageMenu() {
                     <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
                         {MenuItems.map((item, index) => {
                             return (
-                                // <Link
-                                //     activeClass="active"
-                                //     to={item.title}
-                                //     spy={true}
-                                //     smooth={true}
-                                //     offset={-80}
-                                //     duration={500}
-                                // >
+                                <Link
+                                    activeClass="active"
+                                    to={item.title}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={500}
+                                >
                                 <li key={index}>
                                     <a className={item.cName} href={item.url}>
                                         {item.title}
                                     </a>
                                 </li>
-                                //</Link>
+                                </Link>
                             )
                         })}
 
