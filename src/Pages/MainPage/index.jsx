@@ -5,9 +5,6 @@ import { ProjectsSection } from '../../components/ProjectsSection';
 import { PartnersSection } from '../../components/PartnersSection';
 import { Footer } from '../../components/Footer';
 
-import './styles.scss';
-
-
 export function MainPage() {
 
     return (

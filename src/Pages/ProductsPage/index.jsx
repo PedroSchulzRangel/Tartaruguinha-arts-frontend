@@ -1,12 +1,14 @@
-import './styles.scss';
+import { ProductsShowCase } from '../../components/ProductsShowCase';
+import { IntroPage } from '../../components/IntroPage';
 
 
 export function ProductsPage() {
 
     return (
-        <div className="container-products-page">
-            PRODUTOS
-        </div>
+        <>
+            <IntroPage />
+            <ProductsShowCase />
+        </>
     );
 
 }
