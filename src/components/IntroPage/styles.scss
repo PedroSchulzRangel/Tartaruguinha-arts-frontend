@@ -2,21 +2,21 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
     margin: 8rem 5rem 8rem 0;
    
-
     .container-text {
         display: flex;
         align-items: flex-end;
         flex-direction: column;
 
-
         .title {
-            font-size: 3.625rem;
+            font-family: 'Hewitt';
+            font-style: normal;
+            font-weight: 707;
+            font-size: 90px;
+            line-height: 117px;
             text-align: right;
-            color: #FFFFFF;
-            font-family: 'Hewitt', sans-serif;
+            color: #fff;
         }
 
         .text-content {
@@ -27,4 +27,6 @@
             font-family: 'HewittBook', sans-serif;
         }
     }
+
+    
 }

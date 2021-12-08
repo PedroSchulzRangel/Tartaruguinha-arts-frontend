@@ -1,6 +1,53 @@
 .container-projects-section {
     display: flex;
-    height: 400px;
-    width: 100%;
-    background: rgb(43, 156, 156);
+    justify-content: center;
+    margin: auto;
+    gap: 230px;
+    padding: 1rem 0;
+
+    .card-img-historia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            border-radius: 69px;
+            width: 685px;
+            height: 440px;
+        }
+    }
+
+    .button-saiba{
+        margin-top: 2rem;
+        display:flex;
+        justify-content: flex-start;
+
+        a{
+            padding:11px 30px;
+        }
+    }
+
+    .card-text{
+        width: 493px;
+        h3{
+            font-family:"Hewitt";
+            font-style: normal;
+            font-weight: 707;
+            font-size: 34px;
+            line-height: 40px;
+            letter-spacing: 0.1px;
+            color: #FFFFFF;
+        }
+
+        p{
+            font-family: "Hewitt";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 28px;
+            text-align: justify;
+            letter-spacing: 0.2px;
+            color: #434343;
+            margin-top: 2rem;
+        }
+    }
 }

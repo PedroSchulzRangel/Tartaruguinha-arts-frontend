@@ -5,8 +5,6 @@ export function ProductsShowCase() {
 
     return (
         <div className="container-products-showcase">
-
-
             <div className="category-container">
                 <div className="category-title">CANECAS</div>
                 <div className="products-row">
@@ -35,7 +33,7 @@ export function ProductsShowCase() {
                         <div className="product-title">Caneca Tartaruguinha Azul</div>
                         <div className="prize-tag"><div>R$ 15,00</div></div>
                     </div>
-            
+
                 </div>
 
             </div>

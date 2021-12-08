@@ -1,6 +1,21 @@
-.container-carrossel {
+.container-destaque{
     display: flex;
-    height: 400px;
-    width: 100%;
-    background: coral;
+    justify-content:center;
+    flex-direction: column;
+    color: #fff;
+
+    .text-destaque{
+        font-family: 'Hewitt';
+        font-weight: 707;
+        font-size: 34px;
+        line-height: 44px;
+        font-style: normal;
+        margin-left: 35px;
+        z-index: -1;
+        margin-top: -50px;
+    }
+}
+
+.container-products-showcase{
+ margin: 2px;
 }

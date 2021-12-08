@@ -16,9 +16,6 @@ export function MainPage() {
             <div id="História">
                 <HistorySection />
             </div>
-            <div id="Parcerias">
-                <PartnersSection />
-            </div>
             <div id="Projetos">
                 <ProjectsSection />
             </div>
