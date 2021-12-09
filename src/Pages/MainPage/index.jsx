@@ -2,7 +2,6 @@ import { IntroPage } from '../../components/IntroPage';
 import { CarouselShowcase } from '../../components/CarouselShowcase';
 import { HistorySection } from '../../components/HistorySection';
 import { ProjectsSection } from '../../components/ProjectsSection';
-import { PartnersSection } from '../../components/PartnersSection';
 import { Footer } from '../../components/Footer';
 
 export function MainPage() {
