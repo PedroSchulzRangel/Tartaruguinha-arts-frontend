@@ -143,8 +143,11 @@
                 background: #131517;
                 color: #B3B4A1;
                 transition: 250ms;
-            }
-            
+            }  
         }
-
+        @media screen and (max-width: 375px){
+            .nav-menu{
+                width: 100%
+            }
+        }
 }

@@ -19,3 +19,14 @@
 .container-products-showcase{
  margin: 2px;
 }
+
+@media (max-width: 600) {
+
+    .container-products-showcase{
+        .container-destaque{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+        }
+    }
+    
+}

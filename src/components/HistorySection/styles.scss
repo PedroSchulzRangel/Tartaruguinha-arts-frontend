@@ -43,7 +43,49 @@
 }
 
 @media (max-width: 600px) {
-    .container-history-section{
-        width: 50%;
+    .container-history-section {
+        display: block;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        padding: 1rem 0;
+    
+        .card-img-historia{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                border-radius: 69px;
+                width: 277px;
+                height: 167px;
+            }
+        }
+    
+        .card-text{
+            width: 100%;
+            h3{
+                text-align: center;
+                font-family:"Hewitt";
+                font-style: normal;
+                font-weight: 707;
+                font-size: 20px;
+                line-height: 40px;
+                letter-spacing: 0.1px;
+                color: #FFF;
+            }
+    
+            p{
+                text-align: center;
+                font-family: "Hewitt";
+                font-style: normal;
+                font-weight: 705;
+                font-size: 14px;
+                line-height: 28px;
+                text-align: justify;
+                letter-spacing: 0.2px;
+                color: #434343;
+                margin: 32px 54px;
+            }
+        }
     }
 }

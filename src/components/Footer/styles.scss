@@ -16,4 +16,35 @@
         letter-spacing: 0.2px;
         color: #FFFFFF;
     }
+
+    img{
+        width: 75px;
+        height:75px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-footer {
+        display: flex;
+        gap: 200px;
+        width: 140px;
+        height: 49px;
+        background: #5AA897;
+        justify-content: space-evenly;
+        padding: 54px 181px;
+    
+        h2{
+            font-size: 15px;
+            display: flex;
+        }
+        img{
+            width: 24px;
+            height:24px;
+        }
+    }
+}
+@media (max-width: 375px) {
+    .container-footer {
+        width: 65px;
+    }
 }
