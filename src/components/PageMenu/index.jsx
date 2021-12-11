@@ -39,7 +39,7 @@ export function PageMenu() {
                     <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
                         {MenuItems.map((item, index) => {
                             return (
-                                <Link
+                                <Link key={index}
                                     activeClass="active"
                                     to={item.title}
                                     spy={true}
