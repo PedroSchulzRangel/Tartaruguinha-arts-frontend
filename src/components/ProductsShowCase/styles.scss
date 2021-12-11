@@ -10,11 +10,33 @@
 
 
         .category-title {
+            display: flex;
+            justify-content: space-between;
             color: #F9F6F1;
             font-size: 2.125rem;
             font-family: 'Hewitt', sans-serif;
             margin: 2rem 0 4rem 2rem;
             padding: 20px;
+
+            h2{
+                font-family: "Hewitt";
+                font-style: normal;
+                font-weight: 707;
+                font-size: 34px;
+                line-height: 44px;
+
+                color: #F9F6F1;
+            }
+
+            .link-category{
+                font-family: "Hewitt";
+                font-style: normal;
+                font-weight: 709;
+                font-size: 20px;
+                line-height: 18px;
+                text-decoration-line: underline;
+                color: #FFFFFF;
+            }
         }
 
         .products-row {
