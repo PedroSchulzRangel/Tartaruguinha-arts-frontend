@@ -5,9 +5,13 @@ export function HistorySection() {
 
     return (
         <div className="container-history-section">
+
+            
             <div className="card-img-historia">
                  <img src={Img} alt="imagem historia" />
             </div>
+
+
             <div className="card-text">
                 <h3 className="card-titulo-historia">HISTÓRIA</h3>
                 <p className="card-texto-historia">

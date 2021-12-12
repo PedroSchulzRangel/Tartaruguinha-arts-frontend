@@ -1,14 +1,18 @@
 .container-history-section {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    gap: 230px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 6rem;
+
     padding: 1rem 0;
+    width: 100%;
+
 
     .card-img-historia{
         display: flex;
         justify-content: center;
         align-items: center;
+
         img{
             border-radius: 69px;
             width: 685px;
@@ -17,12 +21,12 @@
     }
 
     .card-text{
-        width: 493px;
+        width: 100%;
+
         h3{
             font-family:"Hewitt";
             font-style: normal;
-            font-weight: 707;
-            font-size: 34px;
+            font-size: 2.125rem;
             line-height: 40px;
             letter-spacing: 0.1px;
             color: #FFFFFF;
@@ -32,17 +36,19 @@
             font-family: "Hewitt";
             font-style: normal;
             font-weight: 600;
-            font-size: 26px;
+            font-size: 1.625rem;
             line-height: 28px;
             text-align: justify;
             letter-spacing: 0.2px;
             color: #434343;
             margin-top: 2rem;
+            margin-right: 5rem;
+            
         }
     }
 }
 
-@media (max-width: 600px) {
+    @media (max-width: 1200px) {
     .container-history-section {
         display: block;
         justify-content: center;
@@ -56,8 +62,8 @@
             align-items: center;
             img{
                 border-radius: 69px;
-                width: 277px;
-                height: 167px;
+                width: 80%;
+                height: auto;
             }
         }
     
@@ -67,8 +73,7 @@
                 text-align: center;
                 font-family:"Hewitt";
                 font-style: normal;
-                font-weight: 707;
-                font-size: 20px;
+                font-size: 1.25rem;
                 line-height: 40px;
                 letter-spacing: 0.1px;
                 color: #FFF;

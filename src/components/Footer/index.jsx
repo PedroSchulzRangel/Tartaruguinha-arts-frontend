@@ -1,5 +1,5 @@
 import './styles.scss';
-import Icone from '../../assets/vector.svg'
+import Icone from '../../assets/Vector.svg'
 
 export function Footer() {
 
