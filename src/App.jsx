@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { PageMenu } from './components/PageMenu';
 import { MainPage } from './Pages/MainPage';
-import { ProductsPage } from './Pages/ProductsPage';
+import { CategoriesPage } from './Pages/CategoriesPage';
 
 
 import './App.scss';
@@ -15,7 +15,7 @@ function App() {
         <PageMenu />
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/produtos" element={<ProductsPage />} />
+          <Route path="/produtos" element={<CategoriesPage />} />
         </Routes>
 
       </BrowserRouter>

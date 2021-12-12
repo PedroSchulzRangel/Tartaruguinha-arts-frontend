@@ -16,10 +16,10 @@ export function MainPage() {
                 <HistorySection />
             </div>
             <div id="Projetos">
-                {/* <ProjectsSection /> */}
+                <ProjectsSection />
             </div>
             <div id="Contato">
-                {/* <Footer /> */}
+                <Footer />
             </div>
         </>
     );

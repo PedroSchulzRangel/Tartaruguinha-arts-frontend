@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import { MenuItems } from "./MenuItems";
 import { MenuDetail } from "./MenuDetail";
+import { Button } from "../Button";
 
 import Logo from '../../assets/logo-branco.svg';
 
@@ -23,9 +24,7 @@ export function PageMenu() {
         <div className="header-menu-container">
 
             <div className="logo-container">
-                <h1 className="navbar-logo">
-                    <img src={Logo}></img>
-                </h1>
+                <img src={Logo}></img>
             </div>
 
 
@@ -55,6 +54,8 @@ export function PageMenu() {
                                 </Link>
                             )
                         })}
+
+                        <div><Button text="CONTATO" link="/produtos"/></div>
 
                     </ul>
                 </div>

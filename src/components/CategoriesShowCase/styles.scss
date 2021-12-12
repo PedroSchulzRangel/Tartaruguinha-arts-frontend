@@ -8,18 +8,35 @@
 
     .category-container {
 
+        .category-title-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 2rem 0 3rem 2rem;
 
-        .category-title {
-            color: #F9F6F1;
-            font-size: 2.125rem;
-            font-family: 'Hewitt', sans-serif;
-            margin: 2rem 0 4rem 2rem;
-            padding: 20px;
+            .category-title {
+                color: #F9F6F1;
+                font-size: 2.125rem;
+                font-family: 'Hewitt', sans-serif;
+                padding: 20px;
+            }
+
+            .show-all{
+                display: inline-block;
+                color: #F9F6F1;
+                font-size: 1.125rem;
+                font-family: 'Hewitt', sans-serif;
+                margin: 2rem 2rem 2rem 2rem;
+                padding: 20px;
+                text-decoration: underline;
+            }
         }
+
 
         .products-row {
 
-            display:flex;
+            display: flex;
             flex-direction: row;
             justify-content: center;
             gap: 3rem;
@@ -30,11 +47,11 @@
                 flex-direction: column;
                 align-items: center;
 
-                
+
 
                 img {
                     width: 200px;
-                    height: auto;
+                    height: 200px;
 
                     border-radius: 50%;
                     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
@@ -42,7 +59,7 @@
                     margin-bottom: 1rem;
                 }
 
-                .product-title{
+                .product-title {
                     color: #434343;
                     font-family: 'HewittBook', sans-serif;
                     width: 150px;
@@ -50,8 +67,8 @@
                     text-align: center;
                 }
 
-                .prize-tag{
-                    display:flex;
+                .prize-tag {
+                    display: flex;
                     justify-content: flex;
                     align-items: center;
 
@@ -60,20 +77,20 @@
                     position: relative;
                     top: -110px;
                     left: 65px;
-        
+
                     background: no-repeat url(../../assets/prize-tag.svg);
-                    
+
                     background-size: 100%;
                     width: 80px;
                     height: 60px;
 
-                    div{
+                    div {
                         color: #284482;
                         position: relative;
                         left: 10px;
                         top: -2px;
                     }
-                    
+
                 }
             }
         }

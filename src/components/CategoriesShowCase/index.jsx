@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
+
 import apiStore from '../../services/api';
+import { NavLink } from 'react-router-dom';
 
 import './styles.scss';
 
-export function ProductsShowCase() {
+export function CategoriesShowCase() {
 
     const [data, setData] = useState([]);
 
@@ -19,7 +21,11 @@ export function ProductsShowCase() {
         <div className="container-products-showcase">
 
             <div className="category-container">
-                <div className="category-title">Canecas</div>
+                <div className="category-title-row">
+                    <div className="category-title">Canecas</div>
+                    <div><NavLink to="#" className="show-all">Ver Tudo</NavLink></div>
+                </div>
+
                 <div className="products-row">
                     {
                         productsList.map(product => {
@@ -36,10 +42,15 @@ export function ProductsShowCase() {
                     }
                 </div>
             </div>
-            
+
             <div className="category-container">
-                <div className="category-title">Almofadas</div>
+                <div className="category-title-row">
+                    <div className="category-title">Almofadas</div>
+                    <div><NavLink to="#" className="show-all">Ver Tudo</NavLink></div>
+                </div>
+
                 <div className="products-row">
+
                     {
                         productsList.map(product => {
                             if (product.id_category === 3) {
@@ -57,7 +68,11 @@ export function ProductsShowCase() {
             </div>
 
             <div className="category-container">
-                <div className="category-title">Azulejo</div>
+                <div className="category-title-row">
+                    <div className="category-title">Azulejos</div>
+                    <div><NavLink to="#" className="show-all">Ver Tudo</NavLink></div>
+                </div>
+
                 <div className="products-row">
                     {
                         productsList.map(product => {
@@ -76,7 +91,11 @@ export function ProductsShowCase() {
             </div>
 
             <div className="category-container">
-                <div className="category-title">Máscaras</div>
+                <div className="category-title-row">
+                    <div className="category-title">Máscaras</div>
+                    <div><NavLink to="#" className="show-all">Ver Tudo</NavLink></div>
+                </div>
+
                 <div className="products-row">
                     {
                         productsList.map(product => {

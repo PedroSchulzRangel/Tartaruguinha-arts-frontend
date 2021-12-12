@@ -19,10 +19,4 @@ export const MenuItems = [
         url: '/',
         cName: 'nav-links',
     },
-    {
-        title: 'Contato',
-        url: '/',
-        cName: 'nav-links',
-    },
-
 ]
