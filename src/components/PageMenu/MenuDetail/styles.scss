@@ -20,5 +20,9 @@
         flex-grow: 1;
         background: #FFFFFF;
     }
+
+    @media (max-width: 960px){
+        display: none;
+    }
 }
 

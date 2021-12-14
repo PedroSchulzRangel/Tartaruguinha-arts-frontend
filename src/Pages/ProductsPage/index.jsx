@@ -1,7 +1,5 @@
-import { ProductsShowCase } from '../../components/ProductsShowCase';
 import { IntroPage } from '../../components/IntroPage';
 import { Footer } from '../../components/Footer'
-
 
 
 export function ProductsPage() {

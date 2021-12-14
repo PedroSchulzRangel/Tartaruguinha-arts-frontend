@@ -22,7 +22,7 @@
                 padding: 20px;
             }
 
-            .show-all {
+            .show-all{
                 display: inline-block;
                 color: #F9F6F1;
                 font-size: 1.125rem;
@@ -65,7 +65,6 @@
                     width: 150px;
                     justify-content: center;
                     text-align: center;
-                    height: 3rem;
                 }
 
                 .prize-tag {
@@ -76,7 +75,7 @@
                     font-family: 'HewittBold', sans-serif;
 
                     position: relative;
-                    top: -120px;
+                    top: -110px;
                     left: 65px;
 
                     background: no-repeat url(../../assets/prize-tag.svg);
@@ -93,15 +92,6 @@
                     }
 
                 }
-
-                .button {
-                    width: 160px;
-                    padding: 20px;
-                    color: #FFFFFF;
-                    background-color: #284482;
-                    border: none;
-                }
-
             }
         }
     }

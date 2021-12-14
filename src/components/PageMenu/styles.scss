@@ -1,7 +1,6 @@
 .header-menu-container {
     background: none;
     font-family: "HewittBold", sans-serif;
-    //position: sticky;
     z-index: 2;
     top: 0;
 
@@ -9,8 +8,13 @@
         background: none;
         display: block;
         position: absolute;
-        left: 1rem;
-        top: -30px;
+        left: 100px;
+        top: 30px;
+        
+        img{
+            width: 160px;
+            height: auto;
+        }
     } 
 
     .NavBarItems{
@@ -38,13 +42,25 @@
             list-style: none;
             text-align: center;
             width: 50vw;
-            justify-content: center;
-            line-height: 2;
+
+            align-items: center;
+            margin-right: 1.25rem; 
+
+            .container-button{
+                margin-top: 75px;
+                .button{
+                    width: 120px;
+                    font-family: 'HewittBold';
+                    color: #284482;
+                    background-color: #F9F6F1;
+                    border: 4px solid #284482;
+                }
+            }
                  
             .active{
-            
-            border-radius: 3px;
+            border-radius: 3px;        
             }
+         
         }
         .nav-links {
             position: relative;
@@ -63,7 +79,7 @@
         }
 
         .fa-bars {
-            color: #FFFFFF;
+            color: #284482;
         }
         .nav-links-mobile{
             display: none;
@@ -73,6 +89,11 @@
             margin-top: 1.5rem;
         }
         @media screen and (max-width: 960px){
+
+            .logo-container{
+                display: none;
+            }
+
             .NavbarItems {
                 position: relative;
                 z-index: 10;
@@ -82,49 +103,78 @@
                 display: flex;
                 flex-direction: column;
                 width: 100%;
-                height: 500px;
+                height: 290px;
                 position: absolute;
-                top: 112px;
+                top: 90px;
                 left: -100%;
                 opacity: 1;
                 transition: all 0.5s ease;
                 order: 1;
+
+                .container-button{
+                    margin-top: 30px;
+                    .button{
+                        width: 120px;
+                        color: #FFFFFF;
+                        background-color: #284482;
+                        border: none;
+                    }
+                }
+  
             }
             .nav-menu.active {
-                background: #3787b6;
+                background: #F9F6F1;
                 position: absolute;
+                top: 90px;
                 left: 0;
                 opacity: 1;
                 transition: all 0.5s ease;
                 z-index: 10;
-                width: 100%;
-        
+                width: 50%;
+                border-radius: 0 15px 15px 0;
+                
             }
+
+            .nav-menu.active::after {
+                content: "";
+                position: absolute;
+                bottom: 100%;
+                left: 20px;
+                margin-left: 0px;
+                border-width: 10px;
+                border-style: solid;
+                border-color: transparent transparent #F9F6F1 transparent;
+              }
+
             .nav-links{
                 padding: 1rem 0;
-                
+                color: #284482;
                 display: grid;
                 grid-template-columns: auto;
                 grid-template-rows: repeat (5, auto);
+                font-size: 1.125rem;
             }
-            .nav-links:hover{
-                color: #3787b6;
-                border-radius: 0;
+
+            .nav-links:hover {
+                border-radius: 4px;
+                transition: all 0.2s ease-out;
+                background: #F9F6F1;
+                color: #284482;
             }
          
             .menu-icon{
                 display: block;
                 position: absolute;
                 top: 0;
-                right: 0;
-                transform: translate(-100%, 67%);
+                left: 0;
+                transform: translate(20px, 67%);
                 
                 font-size: 28px;
                 cursor: pointer;
             }
 
             .fa-times {
-                color: #FFFFFF;
+                color: #284482;
                 font-size: 28px;
             }
             .nav-links-mobile {
