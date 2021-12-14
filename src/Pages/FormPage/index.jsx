@@ -1,16 +1,16 @@
 import { IntroPage } from '../../components/IntroPage';
-import { ProductsShowCase } from '../../components/ProductsShowCase';
+import { ContactForm } from '../../components/ContactForm';
 import { Footer } from '../../components/Footer'
 
 
-export function ProductsPage() {
+export function FormPage() {
 
     return (
         <>
             <IntroPage />
-            <ProductsShowCase />
+            <ContactForm />
             <Footer />
         </>
     );
-    
+
 }

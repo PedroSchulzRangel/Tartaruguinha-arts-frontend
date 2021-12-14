@@ -57,7 +57,7 @@ export function PageMenu() {
                             )
                         })}
 
-                        <div><Button text="CONTATO" link="/produtos" onClick={handleOpenModal}/></div>
+                        <div><Button text="CONTATO" link="/contato"/></div>
 
                     </ul>
                 </div>
