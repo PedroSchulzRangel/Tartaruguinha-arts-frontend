@@ -10,27 +10,27 @@ export function CarouselShowcase() {
             <div className="category-container">
                 <div className="products-row">
                     <div className="product-card">
-                    <div><img alt="foto de algo" src="https://www.ecoloja.art.br/image/cache/catalog/Chaveiro/Chaveiro-Metal-Tartaruga-min-500x500.jpg" /></div>
+                    <div><img src="https://www.ecoloja.art.br/image/cache/catalog/Chaveiro/Chaveiro-Metal-Tartaruga-min-500x500.jpg" /></div>
                         <div className="product-title">Caneca Tartaruguinha Azul</div>
                         <div className="prize-tag"><div>R$ 15,00</div></div>
                     </div>
                     <div className="product-card">
-                    <div><img alt="foto de algo" src="https://www.ecoloja.art.br/image/cache/catalog/Chaveiro/Chaveiro-Metal-Tartaruga-min-500x500.jpg" /></div>
+                    <div><img src="https://www.ecoloja.art.br/image/cache/catalog/Chaveiro/Chaveiro-Metal-Tartaruga-min-500x500.jpg" /></div>
                         <div className="product-title">Caneca Tartaruguinha Azul</div>
                         <div className="prize-tag"><div>R$ 15,00</div></div>
                     </div>
                     <div className="product-card">
-                        <div><img alt="foto de algo" src="https://www.ecoloja.art.br/image/cache/catalog/Chaveiro/Chaveiro-Metal-Tartaruga-min-500x500.jpg" /></div>
+                    <div><img src="https://www.ecoloja.art.br/image/cache/catalog/Chaveiro/Chaveiro-Metal-Tartaruga-min-500x500.jpg" /></div>
                         <div className="product-title">Caneca Tartaruguinha Azul</div>
                         <div className="prize-tag"><div>R$ 15,00</div></div>
                     </div>
                     <div className="product-card">
-                    <div><img alt="foto de algo" src="https://www.ecoloja.art.br/image/cache/catalog/Chaveiro/Chaveiro-Metal-Tartaruga-min-500x500.jpg" /></div>
+                    <div><img src="https://www.ecoloja.art.br/image/cache/catalog/Chaveiro/Chaveiro-Metal-Tartaruga-min-500x500.jpg" /></div>
                         <div className="product-title">Caneca Tartaruguinha Azul</div>
                         <div className="prize-tag"><div>R$ 15,00</div></div>
                     </div>
                     <div className="product-card">
-                    <div><img alt="foto de algo" src="https://www.ecoloja.art.br/image/cache/catalog/Chaveiro/Chaveiro-Metal-Tartaruga-min-500x500.jpg" /></div>
+                    <div><img src="https://www.ecoloja.art.br/image/cache/catalog/Chaveiro/Chaveiro-Metal-Tartaruga-min-500x500.jpg" /></div>
                         <div className="product-title">Caneca Tartaruguinha Azul</div>
                         <div className="prize-tag"><div>R$ 15,00</div></div>
                     </div>

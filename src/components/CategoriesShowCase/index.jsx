@@ -28,7 +28,6 @@ export function CategoriesShowCase() {
             <div className="category-container">
                 <div className="category-title-row">
                     <div className="category-title">Canecas</div>
-                    {/* <div><NavLink to="/produtos" onClick={() => localStorage.setItem('@tartaruguinha/actualPage', 1)} className="show-all">Ver Tudo</NavLink></div> */}
                     <div><NavLink to="/produtos" onClick={() => selectPage(1)} className="show-all">Ver Tudo</NavLink></div>
                 </div>
 
