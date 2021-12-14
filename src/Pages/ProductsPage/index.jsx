@@ -1,15 +1,13 @@
 import { IntroPage } from '../../components/IntroPage';
-import { CategoriesShowCase } from '../../components/CategoriesShowCase';
+import { ProductsShowCase } from '../../components/ProductsShowCase';
 import { Footer } from '../../components/Footer';
 
-export function CategoriesPage() {
+export function ProductsPage() {
 
     return (
         <>
             <IntroPage />
-            <div id="Loja">
-                <CategoriesShowCase />
-            </div>
+            <ProductsShowCase />
             <Footer />
         </>
     );

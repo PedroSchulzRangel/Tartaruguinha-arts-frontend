@@ -1,16 +1,11 @@
 export const MenuItems = [
     {
         title: 'Loja',
-        url: '/produtos',
+        url: '/categorias',
         cName: 'nav-links',
     },
     {
         title: 'Projetos',
-        url: '/',
-        cName: 'nav-links',
-    },
-    {
-        title: 'Parcerias',
         url: '/',
         cName: 'nav-links',
     },
