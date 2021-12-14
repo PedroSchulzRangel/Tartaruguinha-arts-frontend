@@ -8,12 +8,14 @@ import Logo from '../../assets/logo-branco.svg';
 
 import { Link } from 'react-scroll'
 import { NavLink } from 'react-router-dom';
+import { useOpenModal } from '../../hooks/useOpenModal';
 
 import './styles.scss';
 
 
 export function PageMenu() {
 
+    const {handleOpenModal} = useOpenModal();
     const [clicked, setClicked] = useState(false);
 
     function handleClickMenu() {
@@ -55,7 +57,7 @@ export function PageMenu() {
                             )
                         })}
 
-                        <div><Button text="CONTATO" link="/produtos"/></div>
+                        <div><Button text="CONTATO" link="/produtos" onClick={handleOpenModal}/></div>
 
                     </ul>
                 </div>
