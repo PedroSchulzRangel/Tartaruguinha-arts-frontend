@@ -11,7 +11,7 @@ import { Modal } from '../../components/ModalProject/Modal'
 
 export function MainPage() {
 
-    const [openModal, setOpenModal] = useState(false)
+    //const [openModal, setOpenModal] = useState(false)
 
     return (
         <>
@@ -24,12 +24,12 @@ export function MainPage() {
                     <ProductsMainShowCase />
                 </div>
                 
-                {/* <div id="História">
+                <div id="História">
                     <HistorySection />
                 </div>
                 <div id="Projetos">
-                    <ProjectsSection abrir={() => setOpenModal(true)} />
-                </div> */}
+                    <ProjectsSection />
+                </div>
                 <div id="Contato">
                     <Footer />
                 </div>

@@ -1,24 +1,27 @@
 .container-projects-section {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    gap: 230px;
-    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 6rem;
 
-    .card-img-historia{
+    padding: 1rem 0;
+    width: 100%;
+
+    .card-img-projects {
         display: flex;
         justify-content: center;
         align-items: center;
+
         img{
             border-radius: 69px;
-            width: 685px;
-            height: 440px;
+            width: 500px;
+            height: auto;
         }
     }
 
-    .button-saiba{
+    .button-saiba {
         margin-top: 2rem;
-        display:flex;
+        display: flex;
         justify-content: flex-start;
 
         text-decoration: none;
@@ -28,41 +31,42 @@
         color: white;
         font-family: "Hewitt";
         font-style: normal;
-        font-weight: 713;
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 18px;
         text-align: center;
-        padding:11px 30px;
+        padding: 11px 30px;
         border: 0;
     }
 
-    .card-text{
-        width: 493px;
-        h3{
+    .card-text {
+        width: 100%;
+
+        h3 {
             font-family:"Hewitt";
             font-style: normal;
-            font-weight: 707;
-            font-size: 34px;
+            font-size: 2.125rem;
             line-height: 40px;
             letter-spacing: 0.1px;
             color: #FFFFFF;
+            margin-left: 5rem;
         }
 
-        p{
+        p {
             font-family: "Hewitt";
             font-style: normal;
             font-weight: 600;
-            font-size: 26px;
+            font-size: 1.625rem;
             line-height: 28px;
             text-align: justify;
             letter-spacing: 0.2px;
             color: #434343;
             margin-top: 2rem;
+            margin-left: 5rem;
         }
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     .container-projects-section {
         display: block;
         justify-content: center;
@@ -70,50 +74,41 @@
         margin: auto;
         padding: 1rem 0;
 
-        .card-responsivo{
-            display:flex;
+        .card-responsivo {
+            display: flex;
             flex-direction: column-reverse;
         }
-    
-        .card-img-historia{
+
+        .card-img-projects{
             display: flex;
             justify-content: center;
             align-items: center;
             order: 2;
+
             img{
                 border-radius: 69px;
-                width: 277px;
-                height: 167px;
+                width: 80%;
+                height: auto;
             }
         }
-    
-        .button-saiba{
-            margin-top: 2rem;
-            display:flex;
-            justify-content: center;
-    
-            a{
-                padding:11px 30px;
-            }
-        }
-    
-        .card-text{
+ 
+        .card-text {
             width: 100%;
-            h3{
+
+            h3 {
                 text-align: center;
-                font-family:"Hewitt";
+                font-family: "Hewitt";
                 font-style: normal;
-                font-weight: 707;
                 font-size: 20px;
                 line-height: 40px;
                 letter-spacing: 0.1px;
                 color: #FFFFFF;
-            }
-    
-            p{
+                margin-left: 0;
+            }          
+
+            p {
                 font-family: "Hewitt";
                 font-style: normal;
-                font-weight: 600;
                 font-size: 14px;
                 line-height: 28px;
                 text-align: justify;

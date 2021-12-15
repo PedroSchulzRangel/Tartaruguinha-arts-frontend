@@ -1,4 +1,4 @@
-import Img from '../../assets/card-img.png'
+import Img from '../../assets/theo-history-image.png';
 import './styles.scss';
 
 export function HistorySection() {
