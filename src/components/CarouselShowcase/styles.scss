@@ -1,32 +1,77 @@
-.container-destaque{
-    display: flex;
-    justify-content:center;
-    flex-direction: column;
-    color: #fff;
+.container-carousel-showcase {
 
-    .text-destaque{
+    margin: 15rem 0;
+    background: #9BC9C8;
+
+    .container-images {
+        height: 300px;
+    }
+
+    .carousel-title {
+        font-size: 2.125rem;
+        font-family: 'Hewitt', sans-serif;
+        margin: 3rem 0;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+    }
+
+    .product-title {
         font-family: 'Hewitt';
-        font-weight: 707;
-        font-size: 34px;
-        line-height: 44px;
-        font-style: normal;
-        margin-left: 35px;
-        z-index: -1;
-        margin-top: -50px;
+        color: #434343;
+        font-size: 1.5rem;
+        position: relative;
+        top: 40px;
     }
-}
 
-.container-products-showcase{
- margin: 2px;
-}
 
-@media (max-width: 600) {
+    .prize-tag {
+        display: flex;
+        justify-content: flex;
+        align-items: center;
 
-    .container-products-showcase{
-        .container-destaque{
-            display: grid;
-            grid-template-columns: 100px 100px 100px 100px;
+        font-family: 'HewittBold', sans-serif;
+
+        position: relative;
+        top: -60px;
+        left: 500px;
+
+        background: no-repeat url(../../assets/prize-tag.svg);
+
+        background-size: 100%;
+        width: 80px;
+        height: 60px;
+
+        div {
+            color: #284482;
+            position: relative;
+            left: 10px;
+            top: -2px;
         }
+
     }
-    
+
+
+
+}
+
+@media (max-width: 900px) {
+    .container-carousel-showcase {
+
+        margin: 1rem 0;
+
+    }
+
+}
+
+@media (max-width: 375px) {
+    .container-carousel-showcase {
+
+        margin: 2rem 0;
+
+    }
+
 }

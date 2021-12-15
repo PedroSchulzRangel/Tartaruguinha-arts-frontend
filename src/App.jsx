@@ -10,9 +10,7 @@ import { FormPage } from './Pages/FormPage';
 import { CategoryPageProvider } from './hooks/useCategoryPage';
 import { OpenModalProvider } from './hooks/useOpenModal';
 
-
 import './App.scss';
-
 
 function App() {
   return (
