@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
 import { useCategoryPage } from '../../hooks/useCategoryPage';
+import { useSelectProduct } from '../../hooks/useSelectProduct';
 import { Button } from '../Button';
 
 import apiStore from '../../services/api';
@@ -10,9 +11,10 @@ import './styles.scss';
 
 export function ProductsShowCase() {
 
+    const {handleSelectProduct} = useSelectProduct();
+
     const [data, setData] = useState([]);
     const [productsTitle, setProductsTitle] = useState("");
-
 
     const { pageValue, selectPage } = useCategoryPage();
 
@@ -37,6 +39,7 @@ export function ProductsShowCase() {
     }, []);
 
     const productsList = data;
+    console.log(productsList)
 
     return (
         <div className="container-products-showcase">
@@ -55,7 +58,7 @@ export function ProductsShowCase() {
                                         <div><img src={product.image} /></div>
                                         <div className="product-title">{product.name}</div>
                                         <div className="prize-tag"><div>{(product.prize).toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</div></div>
-                                        <div><Button text="COMPRAR" link="" /></div>
+                                        <div onClick={() => handleSelectProduct(product.id_product.id_product)}><Button text="COMPRAR" link="/comprar" /></div>
                                     </div>
                                 )
                             }
@@ -63,6 +66,7 @@ export function ProductsShowCase() {
                     }
                 </div>
             </div>
+
         </div>
     );
 }

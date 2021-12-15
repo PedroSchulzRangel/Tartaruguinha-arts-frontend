@@ -14,8 +14,6 @@ export function ProductsMainShowCase() {
     useEffect(() => {
         apiStore.get(`/produtos`)
             .then(response => setData(response.data.data))
-
-
     }, []);
 
     const productsList = data;

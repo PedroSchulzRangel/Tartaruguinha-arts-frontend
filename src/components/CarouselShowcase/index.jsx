@@ -19,8 +19,7 @@ export function CarouselShowcase() {
     }, []);
 
     const featureProductsList = data;
-    console.log(featureProductsList)
-
+   
     return (
         <div className="container-carousel-showcase">
 
