@@ -23,7 +23,7 @@ export function CategoriesShowCase() {
 
     
     return (
-        <div className="container-products-showcase">
+        <div className="container-categories-showcase">
 
             <div className="category-container">
                 <div className="category-title-row">
@@ -51,7 +51,7 @@ export function CategoriesShowCase() {
             <div className="category-container">
                 <div className="category-title-row">
                     <div className="category-title">Almofadas</div>
-                    <div><NavLink to="/produtos" onClick={() => selectPage(3)} className="show-all">Ver Tudo</NavLink></div>
+                    <div><NavLink to="/produtos" onClick={() => selectPage(2)} className="show-all">Ver Tudo</NavLink></div>
                 </div>
 
                 <div className="products-row">
@@ -75,7 +75,7 @@ export function CategoriesShowCase() {
             <div className="category-container">
                 <div className="category-title-row">
                     <div className="category-title">Almofadas de Pescoço</div>
-                    <div><NavLink to="/produtos" onClick={() => selectPage(2)} className="show-all">Ver Tudo</NavLink></div>
+                    <div><NavLink to="/produtos" onClick={() => selectPage(3)} className="show-all">Ver Tudo</NavLink></div>
                 </div>
 
                 <div className="products-row">

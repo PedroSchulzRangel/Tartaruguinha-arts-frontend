@@ -19,7 +19,7 @@ export function ProductsMainShowCase() {
     const productsList = data;
 
     return (
-        <div className="container-products-showcase">
+        <div className="container-main-products-showcase">
 
             <div className="category-container">
                 <div className="category-title-row">
