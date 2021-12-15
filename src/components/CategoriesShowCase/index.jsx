@@ -109,7 +109,7 @@ export function CategoriesShowCase() {
                                     <div className="product-card" key={product.id_product}>
                                         <div><img src={product.image} /></div>
                                         <div className="product-title">{product.name}</div>
-                                        <div className="prize-tag"><div>{product.prize}</div></div>
+                                        <div className="prize-tag"><div>{(product.prize).toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</div></div>
                                     </div>
                                 )
                             }

@@ -5,11 +5,14 @@ export function IntroPage() {
         <div className="container-intro">
             <div className="container-text">
                 <div className="title">
-                    <h1>
                         O PRESENTE <br />
                         ESPECIAL PARA <br />
                         QUEM VOCÊ AMA.
-                    </h1>
+                </div>
+                <div className="title-mobile">
+                        O PRESENTE
+                        ESPECIAL PARA
+                        QUEM VOCÊ AMA.
                 </div>
             </div>
 
