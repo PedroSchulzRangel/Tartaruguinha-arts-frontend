@@ -7,8 +7,9 @@ export function Footer() {
         <div className="container-footer">
             <h2>@tartaruguinhaarts</h2>
             <div>
-                <img src={Icon} alt="icone instagram" />
+                <a href="https://www.instagram.com/tartaruguinhaarts/" target="_blank"><img src={Icon} alt="icone instagram" /></a>
             </div>
+
         </div>
     );
 }

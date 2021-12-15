@@ -1,5 +1,7 @@
 import {Button} from '../Button'
 
+import Icon from '../../assets/instagram-icon.svg';
+
 import './styles.scss';
 
 
@@ -13,7 +15,7 @@ export function Contact() {
                 <div>E-mail: tartaruguinhaarts@yahoo.com</div>
                 <div className="container-instagram">
                     <div>
-                        <i class="fab fa-instagram fa-2x"></i>
+                    <a href="https://www.instagram.com/tartaruguinhaarts/" target="_blank"><img src={Icon} alt="icone instagram" /></a>
                     </div>
                     <div>@tartaruguinhaarts</div>
                 </div>

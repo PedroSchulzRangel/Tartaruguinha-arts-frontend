@@ -33,16 +33,15 @@ export function BuyProduct() {
                 <div className="container-icons">
 
                     <div className="whatsapp-icon">
-                        <img src={WhatsIcon} alt="icone whatsapp" />
+                        <a href="https://api.whatsapp.com/message/T72CUWHVEJGNB1" target="_blank"><img src={WhatsIcon} alt="icone whatsapp" /></a>
                     </div>
                     <div>(11) 9591-94796</div>
-
                 </div>
 
                 <div className="info">
                     <div className="container-icons">
                         <div className="instagram-icon">
-                            <img src={Icon} alt="icone instagram" />
+                            <a href="https://www.instagram.com/tartaruguinhaarts/" target="_blank"><img src={Icon} alt="icone instagram" /></a>
                         </div>
                         <div>@tartaruguinhaarts</div>
                     </div>

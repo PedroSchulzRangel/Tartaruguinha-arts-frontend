@@ -23,9 +23,10 @@
     .container-instagram{
         display: flex;
         flex-direction: row;
-        i{
+        img{
             margin-right: 0.5rem;
             color: #284482;
+            width: 50px;
         }
         div+div{
             line-height: 2;
