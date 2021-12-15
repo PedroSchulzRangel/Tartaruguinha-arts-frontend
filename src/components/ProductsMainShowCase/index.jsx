@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 
+import {Button} from '../Button';
+
 import apiStore from '../../services/api';
 
 import './styles.scss';
@@ -42,6 +44,8 @@ export function ProductsMainShowCase() {
                     }
                 </div>
             </div>
+
+            <div><Button text="OUTROS PRODUTOS" link="/categorias"/></div>
         </div>
     );
 }

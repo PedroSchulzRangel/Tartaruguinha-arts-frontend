@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 
+import {Button} from '../Button';
 import apiStore from '../../services/api';
 
 import { Carousel } from 'react-bootstrap';
@@ -47,6 +48,8 @@ export function CarouselShowcase() {
                     })
                 }
             </Carousel>
+
+            <div><Button text="OUTROS PRODUTOS" link="/categorias"/></div>
 
         </div>
     );

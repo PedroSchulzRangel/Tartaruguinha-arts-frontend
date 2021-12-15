@@ -26,9 +26,8 @@ export function PageMenu() {
         <div className="header-menu-container">
 
             <div className="logo-container">
-                <img src={Logo}></img>
+                <NavLink to="/"><img src={Logo}></img></NavLink>
             </div>
-
 
             <nav className="NavBarItems">
 
@@ -61,11 +60,9 @@ export function PageMenu() {
 
                     </ul>
                 </div>
-
             </nav>
 
             <MenuDetail />
-
 
         </div>
     );
