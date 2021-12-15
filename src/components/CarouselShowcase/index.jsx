@@ -9,8 +9,6 @@ import './styles.scss';
 
 export function CarouselShowcase() {
 
-    const tartaruga = "https://marlimpo.org.br/wp-content/uploads/2017/05/tartaruga.jpg"
-
     const [data, setData] = useState([]);
 
     useEffect(() => {
@@ -32,15 +30,15 @@ export function CarouselShowcase() {
                     featureProductsList.map(product => {
                         if (product.featured === 1) {
                             return (
-                                <Carousel.Item interval={3000} className="container-images" key={product.id}>
+                                <Carousel.Item interval={99000} className="container-images" key={product.id}>
                                     <img
                                         className="d-block w-20 mx-auto"
                                         src={product.image}
                                         alt={`Produto ${product.name}`}
                                     />
-                                    <div className="prize-tag"><div>{(product.prize).toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</div></div>
-                                    <Carousel.Caption>
-                                        <div className="product-title">{product.name}</div>
+                                    <div className="prize-tag-carousel"><div>{(product.prize).toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</div></div>
+                                    <Carousel.Caption className="row">
+                                        <div className="product-title-carousel">{product.name}</div>
                                     </Carousel.Caption>
 
                                 </Carousel.Item>
@@ -49,8 +47,6 @@ export function CarouselShowcase() {
                     })
                 }
             </Carousel>
-
-
 
         </div>
     );

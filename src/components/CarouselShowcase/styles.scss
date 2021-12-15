@@ -6,7 +6,7 @@
     .container-images {
         height: 300px;
 
-        .prize-tag {
+        .prize-tag-carousel {
             display: flex;
             justify-content: flex;
             align-items: center;
@@ -19,7 +19,6 @@
             top: -40px;
             left: 50%;
             
-    
             background: no-repeat url(../../assets/prize-tag.svg);
     
             background-size: 100%;
@@ -33,29 +32,21 @@
                 top: -2px;
             }
         }
-
-        .info-container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-
-            
-            
-        }
     }
 
-    .product-title {
+    .product-title-carousel {
         font-family: 'Hewitt';
         color: #434343;
         font-size: 1.5rem;
         padding-bottom: 0.5rem;
+        margin-top: 1.2rem;
     }
 
     .carousel-title {
+        color: #F9F6F1;
         font-size: 2.125rem;
         font-family: 'Hewitt', sans-serif;
-        margin: 3rem 0;
+        padding: 20px;
     }
 
     img {
@@ -64,6 +55,13 @@
         border-radius: 200px;
     }
 
-    
+    .row{
+        height: 100px;
+    }
+}
 
+@media (min-width: 740px){
+    .container-carousel-showcase {
+        display: none;
+    }
 }
