@@ -1,13 +1,11 @@
 import './style.scss'
-import xizinhoPng from '../../assets/xizinho.png'
 
 export const Modal = (props) => {
     return(
         <div className="container-modal">
             <div className="conteudo-modal">
                 <div className="conteudo-header">
-                    <img src={xizinhoPng} onClick={props.fechar}/>
-                    {/* <button onClick={props.fechar}>X</button> */}
+                    <img src="" onClick={props.fechar}/>
                 </div>
                 <div className="conteudo-principal">
                     <h2>Projetos</h2>

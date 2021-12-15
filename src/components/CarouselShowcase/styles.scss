@@ -5,6 +5,51 @@
 
     .container-images {
         height: 300px;
+
+        .prize-tag {
+            display: flex;
+            justify-content: flex;
+            align-items: center;
+            align-self: center;
+            justify-self: flex-end;
+    
+            font-family: 'HewittBold', sans-serif;
+    
+            position: relative;
+            top: -40px;
+            left: 50%;
+            
+    
+            background: no-repeat url(../../assets/prize-tag.svg);
+    
+            background-size: 100%;
+            width: 80px;
+            height: 60px;
+    
+            div {
+                color: #284482;
+                position: relative;
+                left: 10px;
+                top: -2px;
+            }
+        }
+
+        .info-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            
+            
+        }
+    }
+
+    .product-title {
+        font-family: 'Hewitt';
+        color: #434343;
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
     }
 
     .carousel-title {
@@ -19,59 +64,6 @@
         border-radius: 200px;
     }
 
-    .product-title {
-        font-family: 'Hewitt';
-        color: #434343;
-        font-size: 1.5rem;
-        position: relative;
-        top: 40px;
-    }
-
-
-    .prize-tag {
-        display: flex;
-        justify-content: flex;
-        align-items: center;
-
-        font-family: 'HewittBold', sans-serif;
-
-        position: relative;
-        top: -60px;
-        left: 500px;
-
-        background: no-repeat url(../../assets/prize-tag.svg);
-
-        background-size: 100%;
-        width: 80px;
-        height: 60px;
-
-        div {
-            color: #284482;
-            position: relative;
-            left: 10px;
-            top: -2px;
-        }
-
-    }
-
-
-
-}
-
-@media (max-width: 900px) {
-    .container-carousel-showcase {
-
-        margin: 1rem 0;
-
-    }
-
-}
-
-@media (max-width: 375px) {
-    .container-carousel-showcase {
-
-        margin: 2rem 0;
-
-    }
+    
 
 }

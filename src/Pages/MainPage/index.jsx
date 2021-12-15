@@ -17,12 +17,12 @@ export function MainPage() {
                 <div id="Carrossel">
                     <CarouselShowcase />
                 </div>
-                <div id="História">
+                {/* <div id="História">
                     <HistorySection />
                 </div>
                 <div id="Projetos">
                     <ProjectsSection abrir={() => setOpenModal(true)} />
-                </div>
+                </div> */}
                 <div id="Contato">
                     <Footer />
                 </div>
