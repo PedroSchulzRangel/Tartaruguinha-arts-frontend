@@ -12,7 +12,7 @@ export function CarouselShowcase() {
 
             <div className="carousel-title">PRODUTOS EM DESTAQUE</div>
 
-            <Carousel>
+            <Carousel variant="dark">
                 <Carousel.Item interval={999999} className="container-images">
                     <img
                         className="d-block w-20 mx-auto"

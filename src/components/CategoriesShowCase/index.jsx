@@ -58,7 +58,7 @@ export function CategoriesShowCase() {
 
                     {
                         productsList.map(product => {
-                            if (product.id_category === 3) {
+                            if (product.id_category === 2) {
                                 return (
                                     <div className="product-card" key={product.id_product}>
                                         <div><img src={product.image} /></div>
@@ -74,14 +74,14 @@ export function CategoriesShowCase() {
 
             <div className="category-container">
                 <div className="category-title-row">
-                    <div className="category-title">Azulejos</div>
+                    <div className="category-title">Almofadas de Pescoço</div>
                     <div><NavLink to="/produtos" onClick={() => selectPage(2)} className="show-all">Ver Tudo</NavLink></div>
                 </div>
 
                 <div className="products-row">
                     {
                         productsList.map(product => {
-                            if (product.id_category === 2) {
+                            if (product.id_category === 3) {
                                 return (
                                     <div className="product-card" key={product.id_product}>
                                         <div><img src={product.image} /></div>

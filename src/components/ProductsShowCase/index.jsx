@@ -5,8 +5,8 @@ import { Button } from '../Button';
 
 import apiStore from '../../services/api';
 
-
 import './styles.scss';
+
 
 export function ProductsShowCase() {
 
@@ -17,22 +17,16 @@ export function ProductsShowCase() {
     const { pageValue, selectPage } = useCategoryPage();
 
 
-
-    //const pageValue = localStorage.getItem('@tartaruguinha/actualPage');
-
-
-
-
     useEffect(() => {
         apiStore.get(`/categorias/${pageValue}`)
             .then(response => setData(response.data.data))
 
         switch (pageValue) {
             case 2:
-                setProductsTitle("Azulejos")
+                setProductsTitle("Almofadas")
                 break;
             case 3:
-                setProductsTitle("Almofadas")
+                setProductsTitle("Almofadas de Pescoço")
                 break;
             case 4:
                 setProductsTitle("Máscaras")
@@ -43,7 +37,6 @@ export function ProductsShowCase() {
     }, []);
 
     const productsList = data;
-
 
     return (
         <div className="container-products-showcase">
@@ -70,7 +63,6 @@ export function ProductsShowCase() {
                     }
                 </div>
             </div>
-
         </div>
     );
 }

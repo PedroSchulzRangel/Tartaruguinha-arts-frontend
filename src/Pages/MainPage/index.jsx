@@ -27,9 +27,9 @@ export function MainPage() {
                     <Footer />
                 </div>
             </div>
-            <div>
+            {/* <div>
                 {openModal && <Modal fechar={() => setOpenModal(false)} />}
-            </div>
+            </div> */}
         </>
     );
 

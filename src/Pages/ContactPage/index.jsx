@@ -9,7 +9,7 @@ export function ContactPage() {
         <>
             <IntroPage />
             <Contact />
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 }
