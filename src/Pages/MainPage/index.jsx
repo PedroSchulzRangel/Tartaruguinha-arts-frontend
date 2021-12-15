@@ -4,14 +4,8 @@ import { ProductsMainShowCase } from '../../components/ProductsMainShowCase';
 import { HistorySection } from '../../components/HistorySection';
 import { ProjectsSection } from '../../components/ProjectsSection';
 import { Footer } from '../../components/Footer';
-import { useState } from 'react'
-import { Modal } from '../../components/ModalProject/Modal'
-
-
 
 export function MainPage() {
-
-    //const [openModal, setOpenModal] = useState(false)
 
     return (
         <>
@@ -34,10 +28,6 @@ export function MainPage() {
                     <Footer />
                 </div>
             </div>
-            {/* <div>
-                {openModal && <Modal fechar={() => setOpenModal(false)} />}
-            </div> */}
         </>
     );
-
 }
